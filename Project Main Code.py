@@ -1,7 +1,7 @@
 import mysql.connector
 import csv
 
-conn = mysql.connector.connect(host='localhost',user='root',password='sqllog',database='DC')
+conn = mysql.connector.connect(host='localhost',user='root',password=<your password>,database=<db name>)
 cursor = conn.cursor()
 print('''
 ||||||||||||||||||||||||||||||||||||| 
